@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Ciira wa Maina's Blog</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+  <!-- Custom styles for this template -->
+  <link href="css/clean-blog.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <div class="container">
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        Menu
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="../index.html">Home</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Header -->
+  <header class="masthead" style="background-image: url('img/ewaso-01.jpg')">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="post-heading">
+            <h1>Using IoT and Machine Learning to Help Protect Kenya's Rivers</h1>
+            <span class="meta">Posted by
+              <a href="#">Ciira wa Maina</a>
+              on June 6, 2020</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Post Content -->
+  <article>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <p class="lead">The <a href="https://en.wikipedia.org/wiki/Ewaso_Ng%27iro">Ewaso Nyiro (also Ewaso Ng'iro)</a> is one of the major rivers that dot the Kenyan landscape and its magnificent waters have served communities in its path for millenia. Its waters are drawn from Mt Kenya and snake their way through diverse landscapes before joining the Jubba river in Somalia and eventually making their way to the Indian Ocean. All along its path, it serves as a lifeline for several communities; from farmers in Nyeri and Laikipia to pastoralists in the arid and semiarid areas of Samburu and Isiolo. </p>
+
+          <p>In recent years, increased demand for water to irrigate crops as well as reduced rainfall and land degradation in the catchment area have led to water shortage and conflict between the users of the river's water. To ensure equitable distribution of this vital resource and the detection of unsustainable water usage and destruction of the catchment, effective monitoring of the river is essential.
+            </p>
+
+          <p>Since 2018, we have been developing appropriate systems for remote monitoring of water resources and have recently deployed prototypes along the Ewaso Nyiro as we continue to improve our systems. The hope is that we will be able to develop low cost devices capable of large scale deployment along the river's course. Access to data collected by these systems on river parameters such as river height, flow rate and turbidity could then be used to ensure sustainable use of the water and protection of the catchment.</p>
+
+
+
+           <div class="row">
+             <div class="col-md-5">
+
+               <img class="img-fluid" src="img/ewaso-01.jpg" alt="Ewaso Nyiro River" style="width:100%">
+               <div class="caption">
+               </div>
+
+
+             </div>
+             <div class="col-md-5">
+               <div class="thumbnail">
+                 <img class="img-fluid" src="img/ewaso-02.jpg" alt="Ewaso Nyiro River" style="width:100%">
+                  <div class="caption">
+
+                   </div>
+
+               </div>
+             </div>
+           </div>
+           <span class="caption text-muted">The Ewaso Nyiro at different points on its course.</span>
+
+          <p>Initial prototypes were developed by Jared Makario, an intern at the Dedan Kimathi University of Technology (DeKUT) Center for Data Science and Artificial Intelligence (DSAIL) and deployed at DeKUT's wildlife conservancy in Nyeri. These initial prototypes used an STM32 Nucleo board which contains an ARM®32-bit Cortex®-M4 processor and a custom LoRaWAN transceiver. </p>
+
+          <div class="row">
+             <div class="col-md-5">
+
+               <img class="img-fluid" src="img/wm1.jpg" alt="Initial Prototype" style="width:100%">
+               <div class="caption">
+               </div>
+
+
+             </div>
+             <div class="col-md-5">
+               <div class="thumbnail">
+                 <img class="img-fluid" src="img/wm2.jpg" alt="Initial Prototype" style="width:100%">
+                  <div class="caption">
+
+                   </div>
+
+               </div>
+             </div>
+           </div>
+           <span class="caption text-muted">Initial prototypes deployed at the DeKUT conservancy.</span>
+
+          <p>Our most recent systems have been developed by Jason Kabi, another DSAIL intern, and are based on the <a href="https://www.multitech.com/brands/multiconnect-mdot">mDot&trade;</a> which is an Arm® Mbed&trade; programmable LoRa module. They incorporate a <a href="https://www.maxbotix.com/Ultrasonic_Sensors/MB1010.htm">Maxbotix</a> ultrasonic sensor for river level measurement and a custom PCB was designed and etched at our labs to house all the components. Sensors to measure other parameters are being tested and will be incorporated in future.</p>
+          <div class="row">
+             <div class="col-md-5">
+
+               <img class="img-fluid" src="img/pcb-01.jpg" alt="PCB" style="width:100%">
+               <div class="caption">
+               </div>
+
+
+             </div>
+             <div class="col-md-5">
+               <div class="thumbnail">
+                 <img class="img-fluid" src="img/pcb-02.jpg" alt="PCB" style="width:100%">
+                  <div class="caption">
+
+                   </div>
+
+               </div>
+             </div>
+           </div>
+           <div class="row">
+
+             <div class="col-md-5">
+               <div class="thumbnail">
+                   <img class="img-fluid" src="img/pcb-03.jpg" alt="PCB" style="width:100%">
+                   <div class="caption">
+
+                   </div>
+
+               </div>
+             </div>
+             <div class="col-md-5">
+
+                   <img class="img-fluid" src="img/pcb-04.jpg" alt="PCB" style="width:100%">
+                   <div class="caption">
+                   </div>
+
+             </div>
+           </div>
+           <span class="caption text-muted">The improved prototype etched onto a PCB.</span>
+
+
+          <p>The system was deployed at the <a href="https://www.olpejetaconservancy.org/">Ol Pejeta Conservancy</a> which is located within the Ewaso Nyiro basin. The conservancy is home to several species of wildlife including lions, rhinos, buffalo and zebra and a wildlife Tech lab was recently set up at the conservancy to develop and test conservation technology. After our initial system was destroyed by baboons, we designed a baboon proof cage and have been receiving data since early May 2020.</p>
+
+           <div class="row">
+             <div class="col-md-5">
+
+               <img class="img-fluid" src="img/Sensor-01.JPG" alt="Improved Prototype" style="width:100%">
+               <div class="caption">
+               </div>
+
+
+             </div>
+             <div class="col-md-5">
+               <div class="thumbnail">
+                 <img class="img-fluid" src="img/Sensor-02.jpg" alt="Improved Prototype" style="width:100%">
+                  <div class="caption">
+
+                   </div>
+
+               </div>
+             </div>
+           </div>
+           <span class="caption text-muted">Systems deployed at the Ol Pejeta conservancy. The initial system (left) was destroyed by baboons. Our current system is protected by a cage (right).</span>
+
+          <p>In addition to sensor development, we have developed a web application for data visualisation and analysis. We are also developing machine learning methods to deal with anomalous sensor measurements and make predictions. In future we plan to incorporate multiple data sources such as weather and satellite imagery to build water level prediction models.</p>
+
+
+          <div class="row">
+             <div class="col-md-11">
+
+               <img class="img-fluid" src="img/river-level.png" alt="App Output" style="width:100%">
+               <div class="caption">
+               </div>
+
+
+             </div>
+           </div>
+
+          <span class="caption text-muted">Mean river height as displayed on the app.</span>
+
+          <h3>Acknowledgements</h3>
+          <p><small> We would like to thank William Njoroge and the management at Ol Pejeta for allowing us to test our systems at the conservancy and allowing us to use the Tech Lab to prepare and test our systems. We also thank the wardens at Ol Pejeta for help with the deployment. We thank ARM for support acquiring hardware and for technical support. Also, Stephen Wamae from DeKUT has been a great help during sensor development and deployment.</small></p>
+
+          <h3>Fieldwork Photos</h3>
+          <p>
+
+
+            <div class="row">
+             <div class="col-md-5">
+
+               <img class="img-fluid" src="img/Buffalo-01.JPG" alt="A Buffalo at Ol Pejeta" style="width:100%">
+               <div class="caption">
+               </div>
+
+
+             </div>
+             <div class="col-md-5">
+               <div class="thumbnail">
+                 <img class="img-fluid" src="img/gw-olpaj.jpg" alt="Mounting the LoRaWAN gateway." style="width:100%">
+                  <div class="caption">
+
+                   </div>
+
+               </div>
+             </div>
+            </div>
+
+
+
+
+          <div class="row">
+             <div class="col-md-5">
+
+               <img class="img-fluid" src="img/sensor-setup.jpg" alt="At the Tech Lab" style="width:100%">
+               <div class="caption">
+               </div>
+
+
+             </div>
+             <div class="col-md-5">
+               <div class="thumbnail">
+                 <img class="img-fluid" src="img/setup-02.jpg" alt="Sensor deployment" style="width:100%">
+                  <div class="caption">
+
+                   </div>
+
+               </div>
+             </div>
+           </div>
+           <div class="row">
+
+             <div class="col-md-5">
+               <div class="thumbnail">
+                   <img class="img-fluid" src="img/team-02.jpg" alt="At the equator" style="width:100%">
+                   <div class="caption">
+
+                   </div>
+
+               </div>
+             </div>
+             <div class="col-md-5">
+
+                   <img class="img-fluid" src="img/tech-lab.jpg" alt="At the Tech Lab" style="width:100%">
+                   <div class="caption">
+                   </div>
+
+             </div>
+           </div>
+
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+    </div>
+  </article>
+
+  <hr>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <ul class="list-inline text-center">
+            <li class="list-inline-item">
+              <a href="https://github.com/ciiram">
+                <span class="fa-stack fa-lg">
+                  <i class="fas fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+          </ul>
+          <p class="copyright text-muted">Copyright &copy; Ciira wa Maina 2019</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="js/clean-blog.min.js"></script>
+
+</body>
+
+</html>
